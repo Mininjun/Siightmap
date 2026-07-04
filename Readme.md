@@ -7,7 +7,7 @@ Geospatial infrastructure intelligence platform for discovering and analyzing ph
 
 ## Overview
 
-Sightline enables searching, monitoring, and analyzing real-world infrastructure, including:
+Sightline enables searching, monitoring, and analyzing real-world infrastructure including:
 
 - Telecommunications towers and data centers
 - Power plants, substations, and energy storage
@@ -60,9 +60,9 @@ flowchart TB
     geo -->|"geocode"| Nominatim
     overpass -->|"QL query"| OverpassAPI
 
-    class SearchBar, Filters, ResultList, MapView frontend
-    class route, parser, geo, overpass, cache backend
-    class Nominatim, OverpassAPI external
+    class SearchBar,Filters,ResultList,MapView frontend
+    class route,parser,geo,overpass,cache backend
+    class Nominatim,OverpassAPI external
 ```
 
 ## Data Sources
@@ -84,10 +84,10 @@ Infrastructure queries execute against the [Overpass API](https://overpass-api.d
 ### Natural Language
 
 ```
-telecom towers in Karnataka
-power plants near Mumbai
-data centers in California
-airports in Germany
+telecom towers in karnataka
+power plants near mumbai
+data centers in california
+airports in germany
 ```
 
 ### Structured Queries
@@ -532,9 +532,9 @@ This tool accesses publicly available OpenStreetMap data. Users must:
 1. Respect [OpenStreetMap's tile usage policy](https://operations.osmfoundation.org/policies/tiles/)
 2. Respect [Nominatim usage policy](https://operations.osmfoundation.org/policies/nominatim/)
 3. Respect [Overpass API usage policy](https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances)
-4. Do not use this tool for illegal surveillance or harmful purposes
+4. Not use this tool for illegal surveillance or harmful purposes
 5. Acknowledge that OSM data may be incomplete or inaccurate
-6. Do not perform bulk automated queries that overload public infrastructure
+6. Not perform bulk automated queries that overload public infrastructure
 7. For issues regarding the map, please refer to [https://www.openstreetmap.org/fixthemap](https://www.openstreetmap.org/fixthemap)
 
 The presence or absence of infrastructure in OSM should not be taken as authoritative. Always verify critical information through official sources.

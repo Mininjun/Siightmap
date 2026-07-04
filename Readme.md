@@ -1,4 +1,4 @@
-# Sightline
+# Siightmap
 
 Geospatial infrastructure intelligence platform for discovering and analyzing physical-world assets using OpenStreetMap data.
 

@@ -532,9 +532,9 @@ This tool accesses publicly available OpenStreetMap data. Users must:
 1. Respect [OpenStreetMap's tile usage policy](https://operations.osmfoundation.org/policies/tiles/)
 2. Respect [Nominatim usage policy](https://operations.osmfoundation.org/policies/nominatim/)
 3. Respect [Overpass API usage policy](https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances)
-4. Not use this tool for illegal surveillance or harmful purposes
+4. Do not use this tool for illegal surveillance or harmful purposes
 5. Acknowledge that OSM data may be incomplete or inaccurate
-6. Not perform bulk automated queries that overload public infrastructure
+6. Do not perform bulk automated queries that overload public infrastructure
 7. For issues regarding the map, please refer to [https://www.openstreetmap.org/fixthemap](https://www.openstreetmap.org/fixthemap)
 
 The presence or absence of infrastructure in OSM should not be taken as authoritative. Always verify critical information through official sources.

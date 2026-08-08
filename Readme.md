@@ -8,7 +8,7 @@ Geospatial infrastructure intelligence platform for discovering and analyzing ph
 ## Overview
 
 Sightline enables searching, monitoring, and analyzing real-world infrastructure including:
-
+ 
 - Telecommunications towers and data centers
 - Power plants, substations, and energy storage
 - Airports, helipads, and cable transport (gondolas, funiculars)
@@ -540,5 +540,5 @@ This tool accesses publicly available OpenStreetMap data. Users must:
 The presence or absence of infrastructure in OSM should not be taken as authoritative. Always verify critical information through official sources.
 
 ## License
-
+ 
 MIT
